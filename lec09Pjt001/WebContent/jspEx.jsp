@@ -8,7 +8,7 @@
     </head>
     <body>
 		
-		<%@ include file="header.jsp" %>
+		<%@ include file="header.jsp" %>  <%-- 위부 파일 가져오기 --%>
 		
 		<!--  선언 태그 -->
 		<%!
@@ -42,7 +42,7 @@
 		<!--  표현식 태그 -->
 		num is <%= num %>
 		
-		<%@ include file="footer.jsp" %>
+		<%@ include file="footer.jsp" %>  <%-- 위부 파일 가져오기 --%>
 
     </body>
 </html>
